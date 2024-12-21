@@ -1,0 +1,160 @@
+body{
+    background-color: #033f63;
+     color: white;
+    margin-bottom: 200px;
+}
+
+.custom-tab
+{
+    color: black;
+     font-size: 2.5rem;
+    font-weight: bold;
+    border: 1px solid red;
+}
+#t1layout,#t2layout, #t3layout, #t4layout, #t5layout, #t6layout, #t7layout, #t8layout, #t9layout{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#previewtable,#desctable,#statscomptable,#missingvaluestable, #previewnewtable,#previewnewtablestats, #missing_before_table, #previewnewtablestats,#missing_after_table
+{
+    color:black;
+    font-size: 2rem;
+    width: 80%;
+    overflow-x: auto;
+
+}
+
+#maintitle
+{
+    color: #8FBC8F;
+
+}
+
+#btn-download
+{
+    color: white;
+    font-size: 4rem;
+    width: 800px;
+    height: 100px;
+}
+
+h1, h3, h4, h5, h6
+{
+    margin-top:10px;
+    color: yellow;
+    text-align: center;
+}
+
+h2
+{
+    margin-top: 1.5em;
+    text-align: center;
+    color: yellow;
+
+}
+
+
+#introimgs
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 5em;
+
+}
+
+#introimgs img
+{
+    width: 50%;
+    height:auto;
+}
+
+#distribution_attribute{
+    color: black;
+}
+
+#transform_method,  #normality_test_method,#statistic_method,#attribute_selector
+{
+     font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#category_dropdown, #numcategory_dropdown, #distribution_attribute
+{
+    font-size: 3rem;
+    width: 70%;
+    font-weight: bold;
+    color: black;
+    height: 100px;
+}
+
+#category_dropdown .Select-value-label , #numcategory_dropdown .Select-value-label, #transform_method .Select-value-label
+
+{
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+ #attribute_selector .Select-value-label
+ {
+     line-height: 1.5;
+    padding: 10px;
+ }
+
+#count_radio,#pie_radio,#bar_radio, #strip_radio,#striphue_radio, #pair_options, #jointx_radio, #jointy_radio, #jointhue_radio, #hexbin_radio,#violin_radio, #lm_radio,#lmcol_radio, #line_radio,#dist_radio,
+#boxen_radio,#rug_radio,#kdewithfill_radio,#area_radio,#jointx_radio,#jointy_radio,
+#jointhue_radio, #outlier_detection_method,  #fillnum_method, #filldate_method, #fillcat_method, #fillbool_method, #qq_options,
+#bar_plot_type
+
+{
+  font-size: 3rem;
+}
+
+#count_plot,#pie_plot, #bar_plot, #strip_plot
+{
+    margin-top: 100px;
+}
+
+
+#normality_output
+{
+    align-self: center;
+}
+
+
+#outlier_output
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+
+}
+
+#stack_group_x, #stack_group_group, #multikde_attribute_x, #multikde_attribute_y
+{
+    color: black;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
